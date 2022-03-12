@@ -1,0 +1,106 @@
+/* General */
+body {
+    box-sizing: border-box;
+    font-size: 10px;
+    background-color: black;
+    font-family: 'Alata', sans-serif;
+    color:white;
+    
+}
+@media (max-width: 390px) {
+    body {
+        font-size:  8px;
+    }
+}
+
+/* Header */
+
+header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+header .title{
+    padding: 1rem 0 3rem 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.videoButton{
+    width: 7%;
+    height:auto;
+    margin-bottom: 3rem;
+}
+.title{
+    
+}
+.title h1, .title p, {
+    letter-spacing: 0.3rem;
+}
+.title p{
+    letter-spacing: 0.3rem;
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Main */
+h2 {
+    font-size: 1.5rem;
+
+}
+@media (max-width: 390px){
+    
+    
+}
+main p {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.bioSummary {
+    padding: 4rem 0 2rem 0;
+    border-bottom: 1px solid white;
+}
+.right{
+    width: 100%;
+    text-align: right;
+}
+h2{
+    letter-spacing: 0.1rem;
+}
+/* FOOTER */
+footer p{
+    color: white;
+}
+footer{
+    margin-top: 3rem;
+    text-align: center;
+}
+@media (max-width: 390px) {
+    body {
+        font-size:  7px;
+    }
+    .videoButton{
+        width: 15%;
+    }
+    h2{
+        font-size:1rem;
+    }
+    main p {
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size:1.3rem;
+    }
+    header{
+        width: 80%;
+    }
+    main{
+        width:70%;
+    }
+}
